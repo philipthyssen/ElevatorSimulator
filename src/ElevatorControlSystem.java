@@ -118,10 +118,12 @@ public class ElevatorControlSystem implements ElevatorControlSystemInterface {
     @Override
     public void step() {
         // Is taking one step with all elevators.
+        String elevatorStatus = " Elevator status after manuel step:";
         for(ElevatorInterface elevator: elevators) {
             elevator.step();
-            System.out.println(elevator.toString());
+            elevatorStatus = elevatorStatus + " \n " + "\t" +elevator.toString();
         }
+        System.out.println(elevatorStatus);
     }
 
     @Override

@@ -65,8 +65,8 @@ ElevatorInterface:
   limit for an elevator. 
   
   Every Elevator runs in its own thread to simulate real elevators. Every person is added by the main thread. Locks, blocking-queues and "synchronize" is used to handle concurrency.  
-  
-  ## Compile and Run
+
+## Compile and Run
    At least java jdk 1.7 is required. 
     
    To Compile execute in the terminal: javac ElevatorSimulation.java

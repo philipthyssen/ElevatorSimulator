@@ -88,5 +88,5 @@ ElevatorInterface:
     Example: 
     Running the program is straightforward:  
     
-    java ElevatorSimulation step 4 12
+		    java ElevatorSimulation step 4 12
     
